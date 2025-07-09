@@ -12,7 +12,7 @@ type Todo = {
 
 const API_URL = "https://686c8f9614219674dcc85323.mockapi.io/api/v1/todos";
 
-// API functions
+
 async function fetchTodos(): Promise<Todo[]> {
   const response = await fetch(API_URL);
   if (!response.ok) {
