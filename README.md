@@ -1,2 +1,2 @@
-bun i 
-bun run dev
+1 .bun i 
+2. bun run dev
